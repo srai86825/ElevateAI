@@ -1,0 +1,100 @@
+.elevate__possibility {
+  display: flex;
+  flex-direction: row;
+}
+.elevate__possibilty-image {
+  flex: 1;
+  display: flex;
+  margin-left: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 50%; */
+}
+
+.elevate__possibilty-image img {
+  width: 100%;
+  height: 100%;
+}
+/* .elevate__possibility-content */
+.elevate__possibility-content {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.elevate__possibility-content h4:first-child {
+  color: #71e5ff;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+}
+.elevate__possibility-content h1 {
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 45px;
+}
+.elevate__possibility-content p {
+  color: #81afdd;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.elevate__possibility-content h4:last-child {
+  color: #ff8a71;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1050px) {
+  .elevate__possibility-content h4 {
+    font-size: 14px;
+  }
+  .elevate__possibility-content h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .elevate__possibility-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .elevate__possibility-content h4 {
+    font-size: 12px;
+  }
+  .elevate__possibility-content h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .elevate__possibility-content p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .elevate__possibility {
+    flex-direction: column;
+  }
+  .elevate__possibilty-image {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .elevate__possibility-content h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .elevate__possibility-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .elevate__possibility-content h4 {
+    font-size: 16px;
+  }
+}
